@@ -1,0 +1,8 @@
+Package: hermes
+Version: 1.0.0
+Architecture: all
+Essential: no
+Priority: optional
+Depends: default-jre | java-runtime (>= 14)
+Maintainer: Pragyanshu Rai
+Description: hermes can be used to match a pattern with all the files in a given path.

@@ -1,0 +1,18 @@
+#! /usr/bin/env bash
+
+# Path to the hermes directory
+HERMES_DIR="/usr/local/bin/Hermes"
+
+# Check if the directory exists
+if [ -d "$HERMES_DIR" ]; then
+  echo "Removing existing hermes directory..."
+  rm -rf "$HERMES_DIR" || {
+    echo "Error: Failed to remove $HERMES_DIR" >&2
+    exit 1
+  }
+  echo "$HERMES_DIR has been removed."
+else
+  echo -e "No hermes directory found.\nCreating a new one."
+fi
+
+exit 0
