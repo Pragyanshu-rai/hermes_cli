@@ -1,1 +1,0 @@
-This directory contains the code for packaging the hermes cli tool
