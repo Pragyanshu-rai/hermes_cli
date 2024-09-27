@@ -16,6 +16,7 @@ Hermes is a powerful and user-friendly command-line tool designed for searching 
 
 ---
 
+
 ### Release 
 
 You can download the latest release of the package [here](https://github.com/Pragyanshu-rai/hermes_cli/releases/tag/v1.0.0) or checkout the release page.
