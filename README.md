@@ -41,6 +41,7 @@ sudo dpkg -i hermes_1.0.0_all.deb
 
 *Here 'hermes_1.0.0_all.deb' denotes the version of the package you wish to install.*
 
+### Validate Install
 
 Run
 ```bash
