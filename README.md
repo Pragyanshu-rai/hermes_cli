@@ -39,6 +39,10 @@ Hermes requires Java Runtime Environment (JRE) 14 or higher. You can install it 
 sudo dpkg -i hermes_1.0.0_all.deb
 ```
 
+*Here 'hermes_1.0.0_all.deb' denotes the version of the package you wish to install.*
+
+### Validate Install
+
 Run
 ```bash
 which hermes
