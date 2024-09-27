@@ -16,7 +16,14 @@ Hermes is a powerful and user-friendly command-line tool designed for searching 
 
 ---
 
-## Prerequisite
+
+### Release 
+
+You can download the latest release of the package [here](https://github.com/Pragyanshu-rai/hermes_cli/releases/tag/v1.0.0) or checkout the release page.
+
+---
+
+### Prerequisite
 
 Ensure you have JRE installed:
 
@@ -24,7 +31,7 @@ Ensure you have JRE installed:
 sudo apt install default-jre
 ```
 
-## Installation
+### Installation
 
 Hermes requires Java Runtime Environment (JRE) 14 or higher. You can install it by downloading the `.deb` package and using `dpkg`.
 
@@ -38,7 +45,7 @@ which hermes
 ```
 to check if the package has been installed on your system.
 
-## Uninstalling
+### Uninstalling
 
 Run 
 ```bash
@@ -48,7 +55,7 @@ to uninstall the package.
 
 ---
 
-## Usage
+### Usage
 
 The basic usage of the Hermes tool is as follows:
 ``` bash
