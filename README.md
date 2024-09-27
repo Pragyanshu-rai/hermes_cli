@@ -1,6 +1,6 @@
 # Hermes - Version 1.0
 
-![Hermes Logo](https://github.com/Pragyanshu-rai/hermes_static/blob/master/img/hermes_icon.png)
+<img src="https://github.com/Pragyanshu-rai/static/blob/master/hermes/hermes_icon.png" alt="Hermes Logo" width="200" height="200">
 
 ## Welcome to Hermes
 
@@ -65,7 +65,6 @@ hermes [OPTIONS] [FILE_PATH] [PATTERN]
 ### Example
 
 To search for the pattern 'error' in /path/to/logs recursively and case-insensitively, use:
-
 
 ```bash
 hermes -w -i 'error' /path/to/logs
