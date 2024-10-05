@@ -31,7 +31,7 @@ Options:
   -h, -H          Show this help message and exit.
 
 Example:
-  hermes -w -i 'error' /path/to/logs
+  hermes -w -i /path/to/logs error
 
 Start finding patterns now and streamline your workflow!
 """
