@@ -83,7 +83,7 @@ hermes [OPTIONS] [FILE_PATH] [PATTERN]
 To search for the pattern 'error' in /path/to/logs recursively and case-insensitively, use:
 
 ```bash
-hermes -w -i 'error' /path/to/logs
+hermes -w -i /path/to/logs error
 ```
 ---
 
