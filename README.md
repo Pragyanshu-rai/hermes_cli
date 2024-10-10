@@ -1,4 +1,4 @@
-# Hermes - Version 1.0
+# Hermes - Version 1.2
 
 <img src="https://github.com/Pragyanshu-rai/static/blob/master/hermes/hermes_icon.png" alt="Hermes Logo" width="200" height="200">
 
@@ -12,14 +12,15 @@ Hermes is a powerful and user-friendly command-line tool designed for searching 
 
 - **Recursive Search**: Search for patterns recursively in directories.
 - **Case-insensitive Search**: Perform case-insensitive searches with ease.
-- **Simple CLI Options**: Intuitive and easy-to-use command-line options.
+- **Level Limit Search**: Search for patterns up to the required depth.
+- **Performance Metric**: Get a real-time performance log for the search session.
 
 ---
 
 
 ### Release 
 
-You can download the latest release of the package [here](https://github.com/Pragyanshu-rai/hermes_cli/releases/tag/v1.0.0) or checkout the release page.
+You can download the latest release of the package [here](https://github.com/Pragyanshu-rai/hermes_cli/releases/tag/v1.2.0) or checkout the release page.
 
 ---
 
@@ -36,10 +37,10 @@ sudo apt install default-jre
 Hermes requires Java Runtime Environment (JRE) 14 or higher. You can install it by downloading the `.deb` package and using `dpkg`.
 
 ```bash
-sudo dpkg -i hermes_1.0.0_all.deb
+sudo dpkg -i hermes_1.2.0_all.deb
 ```
 
-*Here 'hermes_1.0.0_all.deb' denotes the version of the package you wish to install.*
+*Here 'hermes_1.2.0_all.deb' denotes the version of the package you wish to install.*
 
 ### Validate Install
 
@@ -68,9 +69,13 @@ hermes [OPTIONS] [FILE_PATH] [PATTERN]
 
 ### Options
 ```bash
--w, -W: Search for patterns recursively in directories.
--i, -I: Perform case-insensitive pattern matching.
--h, -H: Show this help message and exit.
+  -w, -W          Search for patterns recursively in directories.
+  -i, -I          Perform case-insensitive pattern matching.
+  -c, -C          Will color code the output.
+  -l, -L          Can specify the depth level for the search by passing a number in the argument with this flag set.
+  -r, -R          Will run a recursive search down from the give path, this Supersedes depth level flag.
+  -p, -P          Will log the performance metric for the search session.
+  -h, -H          Show this help message and exit.
 ```
 
 ### Example
